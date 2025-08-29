@@ -4,25 +4,58 @@
 
 
 
-body {
-    background-color: rgb(255, 255, 255);
-    
-  }
-  h1 {
-    color: rgb(76, 76, 158);
-  }
-  p {
-    font-size: 18px;
-  }
+  body {
+
+      background-image: url('campinho.webp'); 
+      background-repeat: no-repeat; 
+      background-position: center center; 
+      background-attachment: fixed; 
+      background-size: cover;  
+      background-color: #f0f0f0;
+      
+    }
+p { align-items: center; text-align: center; font-size: 40px; text-shadow: #f0f0f0; }    
   
+h1, h2, p {
+  color: rgb(76, 236, 158);
+}
+/* Aplica a fonte apenas a h1 e h2 */
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+ 
+.VILA {
+  display: block;  /* Trata a imagem como um bloco */
+  margin: auto;    /* Aplica margens automáticas para centralizar */
+  width: 30%;      /* Opcional: define uma largura para a imagem */
+}
 
-  .linha {
-    display: flex;
-    align-items: center; /* Alinha verticalmente no centro */
-    gap: 20px; /* Espaço entre a imagem e o h1 */
-  }
+    .linha {
+      display: flex;
+      align-items: center; /* Alinha verticalmente no centro */
+      gap: 20px; /* Espaço entre a imagem e o h1 */
+      justify-content: center;
+    }
 
-.OIP {
-  height: 2em;
-  ;
-  }
+  .OIP {
+    height: 2em;
+    ;
+    }
+    
+ button {
+      background-color: #4CAF50; /* Verde */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px; /* Bordas arredondadas */
+    }
+
+    button:hover {
+      background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+    } 
