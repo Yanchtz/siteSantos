@@ -19,27 +19,42 @@
 <p>A culpa é dos jagunços ruins que compõem o time</p>
 
 <div>
-
+    
     <img class="VILA" src="vila2.jpg">
-
+        
 </div>
 
 
 <div>
 <a href="https://ge.globo.com/futebol/brasileirao-serie-a/video/todos-os-gols-de-santos-vs-vasco-13849168.ghtml">Santos apanhando</a>
 </div>
-<div> 
-    
-    id="resultado"
-    class="mensagem"
 
-
-</div>
 <h2>Torcedor do Santão??</h2>
-<input type="text" name="Time" class="pergunta01" placeholder="Qual time você torce??"><br>
+<input type="text" id="timeInput" name="Time" class="pergunta01" placeholder="Qual time você torce??"><br>
+<button    
+ onclick="verificarTime()">Verificar</button> 
+
+<div
+
+id="resultado" class="mensagem" style="margin-top: 10px; font-weight: bold;"> 
+
+
 <script>
+    function verificarTime() {
+    const timeDigitado = document.getElementById('timeInput').value.toLowerCase();
+    const resultadoBB = document.getElementById('resultado')
+
+if (timeDigitado ==="santos"){
+       resultadoBB.innerHTML = 'você é foda';     
+       resultadoBB.style.color= 'green';
+    } else {
+        resultadoBB.innerHTML = 'você é buxa'     
+        resultadoBB.style.color= 'red';
+    }
 
 
+
+    }   
 
 </script>
 
