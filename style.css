@@ -1,0 +1,28 @@
+
+
+
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    
+  }
+  h1 {
+    color: rgb(76, 76, 158);
+  }
+  p {
+    font-size: 18px;
+  }
+  
+
+  .linha {
+    display: flex;
+    align-items: center; /* Alinha verticalmente no centro */
+    gap: 20px; /* Espaço entre a imagem e o h1 */
+  }
+
+.OIP {
+  height: 2em;
+  ;
+  }
